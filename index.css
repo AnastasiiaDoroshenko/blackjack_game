@@ -1,0 +1,40 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.game--wrapper {
+    background: url("images/table.png") no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    justify-content: center;
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: bold;
+}
+#message-el{
+    font-style: italic;
+}
+h1 {
+   color: darkgoldenrod;
+    font-size: 45px;
+}
+p {
+    margin: 15px 0;
+}
+
+.game--button {
+    background-color: darkgoldenrod;
+    color: #016f32;
+    width: 90%;
+    max-width: 150px;
+    border: none;
+    padding: 15px;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
